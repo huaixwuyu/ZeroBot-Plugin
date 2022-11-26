@@ -139,6 +139,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ymgal"         // 月幕galgame
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/meinvcalendar" // 美女日历
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/dailycalendar" // 日历
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/girl" // 美女
 
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/wtf"            // 鬼东西
 
