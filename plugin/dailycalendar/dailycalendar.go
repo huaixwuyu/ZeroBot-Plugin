@@ -10,7 +10,7 @@ import (
 )
 
 func init() {
-	control.Register("meinvcalendar", &ctrl.Options[*zero.Ctx]{
+	control.Register("dailycalendar", &ctrl.Options[*zero.Ctx]{
 		DisableOnDefault: true,
 		Brief:            "日历",
 		Help: "- /启用 dailycalendar\n" +
