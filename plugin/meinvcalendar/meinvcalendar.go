@@ -1,5 +1,5 @@
 // Package moyucalendar 美女日历
-package 美女日历
+package meinvcalendar
 
 import (
 	"github.com/FloatTech/floatbox/web"
