@@ -15,7 +15,7 @@ func init() {
 		Brief:            "日历",
 		Help: "- /启用 dailycalendar\n" +
 			"- /禁用 dailycalendar\n" +
-			"- 记录在\"00 7 * * *\"触发的指令\n" +
+			"- 记录在\"30 8 * * *\"触发的指令\n" +
 			"   - 日历",
 	}).OnFullMatch("日历").SetBlock(true).
 		Handle(func(ctx *zero.Ctx) {
