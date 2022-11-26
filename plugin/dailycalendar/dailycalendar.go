@@ -1,5 +1,5 @@
 // Package dailycalendar 日历
-package 日历
+package dailycalendar
 
 import (
 	"github.com/FloatTech/floatbox/web"
