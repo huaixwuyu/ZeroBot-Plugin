@@ -1,4 +1,4 @@
-// Package moyucalendar 美女日历
+// Package meinvcalendar 美女日历
 package meinvcalendar
 
 import (
@@ -15,7 +15,7 @@ func init() {
 		Brief:            "美女日历",
 		Help: "- /启用 meinvcalendar\n" +
 			"- /禁用 meinvcalendar\n" +
-			"- 记录在\"00 19 * * *\"触发的指令\n" +
+			"- 记录在\"30 8 * * *\"触发的指令\n" +
 			"   - 美女日历",
 	}).OnFullMatch("美女日历").SetBlock(true).
 		Handle(func(ctx *zero.Ctx) {
